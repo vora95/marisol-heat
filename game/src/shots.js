@@ -3,7 +3,6 @@
 // the story of that scene. Runs only when ?shot=<name> is in the URL.
 
 import { makeCar, makePolice } from './entities.js';
-import { dist } from './random.js';
 
 export function setupShot(game, shot) {
   const p = game.player;
@@ -106,5 +105,4 @@ export function setupShot(game, shot) {
       p.car.y = p.y;
     }
   }
-  void dist;
 }
